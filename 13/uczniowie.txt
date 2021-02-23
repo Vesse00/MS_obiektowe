@@ -1,5 +1,10 @@
-Tomasz Stepien;
-Mateusz Jagiella;
-Jakub Sawicki;
-Alan Luszczak;
-Pawel Domagala;
+Tomasz Stepien
+Mateusz Jagiella
+Jakub Sawicki
+Alan Luszczak
+Pawel Domagala
+Maciej Szczypta
+Mateusz Jaworski
+Hubert Kaczor
+Wojciech Mikusinski
+Jaromir Olszewski
