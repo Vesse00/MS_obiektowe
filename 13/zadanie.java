@@ -26,7 +26,7 @@ class zadanie {
             
         } catch (FileNotFoundException e) {
             
-            e.printStackTrace();
+            System.out.println("ERR: " + e.toString());
         }
 
 
