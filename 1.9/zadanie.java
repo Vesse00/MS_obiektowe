@@ -14,9 +14,9 @@ class zadanie {
 
         
         String[] imiona = new String[10];
-        Scanner odczyt;
+        
 		try {
-			odczyt = new Scanner(new File("uczniowie.txt"));
+			Scanner odczyt = new Scanner(new File("uczniowie.txt"));
             for (int i = 0; i < los.length; i++) {
                 imiona[i] = odczyt.nextLine();
             }
