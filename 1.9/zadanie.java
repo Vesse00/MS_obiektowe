@@ -17,18 +17,33 @@ class zadanie {
          */
 
         //File plik = new File("uczniowie.txt");
-        try {
+        /*try {
             Scanner odczyt = new Scanner(new File("uczniowie.txt"));
             while(odczyt.hasNext()){
-                String text = (odczyt.nextLine());
+                String text = odczyt.nextLine();
                 System.out.println(text);
             }
             
-        } catch (FileNotFoundException e) {
-            
+        } catch (FileNotFoundException e) {          
             System.out.println("ERR: " + e.toString());
+        }*/
+        String[] imiona = new String[10];
+        Scanner odczyt;
+		try {
+			odczyt = new Scanner(new File("uczniowie.txt"));
+            for (int i = 0; i < los.length; i++) {
+                imiona[i] = odczyt.nextLine();
+            }
+
+            
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        
+        for(int i = 0; i < los.length; i++){ 
+            System.out.println(imiona[i] +" "+ los[i]);
         }
-
-
+        
     }
 }
