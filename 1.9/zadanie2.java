@@ -12,12 +12,14 @@ public class zadanie2 {
             while(sc.hasNextInt()){
                 czylos[i++] = sc.nextInt();
             }
+
             //for(int j = 0; j < czylos.length; j++){ System.out.println(czylos[j]);}
 
             for(int j = 0; j < czylos.length; j++){
                 if(czylos[j] == 0){
-                    continue;
+                    System.out.println("Wczytalem 0 - nie losuje");
                 }else if(czylos[j] == 1){
+
                     Scanner sc2 = new Scanner(new File("ileliczb.txt"));
                     int [] ile = new int[8];
                     int a = 0;
@@ -28,6 +30,9 @@ public class zadanie2 {
                     for(j = 0; j < ile.length; j++){ 
                         System.out.println("Czy los: "+czylos[j]+" Ile los: "+ile[j]);
                     }
+
+
+                    
                 }
             }
             
