@@ -20,11 +20,8 @@ class zadanie {
             for (int i = 0; i < los.length; i++) {
                 imiona[i] = odczyt.nextLine();
             }
-
-            
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("BLAD:"+e.toString());
 		}
         
         for(int i = 0; i < los.length; i++){ 
