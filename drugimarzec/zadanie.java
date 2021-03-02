@@ -25,6 +25,7 @@ public class zadanie {
     private static void tablicaMnozenia(){
         int [][] tablica = new int[10][10];
 
+        
         for(int i = 0; i < tablica.length; i++){
             for(int j = 0; j < tablica[i].length; j++){
                 tablica[i][j] = (i+1)*(j+1);
