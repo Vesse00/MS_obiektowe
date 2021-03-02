@@ -17,6 +17,7 @@ public class zadanie {
             for(int j = 0; j < tab.length; j++){
                 System.out.println(tab[i][j]);
             }
+            
         }
     }
 }
