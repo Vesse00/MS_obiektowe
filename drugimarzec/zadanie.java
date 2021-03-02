@@ -2,6 +2,10 @@ package drugimarzec;
 
 public class zadanie {
     public static void main(String[] args) {
+        zadanie();
+    }
+
+    private static void zadanie(){
         int [][] tab = new int[2][2];
 
         tab[1][1] = 55;
