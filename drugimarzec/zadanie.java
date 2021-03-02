@@ -2,7 +2,8 @@ package drugimarzec;
 
 public class zadanie {
     public static void main(String[] args) {
-        zadanie();
+        //zadanie();
+        tablicaMnozenia();
     }
 
     private static void zadanie(){
@@ -17,7 +18,25 @@ public class zadanie {
             for(int j = 0; j < tab.length; j++){
                 System.out.println(tab[i][j]);
             }
-            
+
         }
+    }
+
+    private static void tablicaMnozenia(){
+        int [][] tablica = new int[10][10];
+
+        for(int i = 0; i < tablica.length; i++){
+            for(int j = 0; j < tablica[i].length; j++){
+                tablica[i][j] = (i+1)*(j+1);
+            }
+        }
+
+        for(int i = 0; i < tablica.length; i++){
+            for(int j = 0; j < tablica[i].length; j++){
+                System.out.print(tablica[i][j]+"\t");
+            }
+            System.out.println();
+        }
+
     }
 }
