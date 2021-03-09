@@ -1,11 +1,20 @@
 class Rekurencja2{
     public static void main(String[] args){
-        int liczba = sumaKolejnychLiczb(3);
+        /*int liczba = sumaKolejnychLiczb(3);
         System.out.println("Wynik: "+liczba);
 
         int tak = obliczanieSilni(15);
-        System.out.println("Wynik: "+tak);
+        System.out.println("Wynik: "+tak);*/
+        System.out.println(wyswietlanieWyrazu("Anna"));
         
+    }
+
+    private static String wyswietlanieWyrazu(String wyraz){
+        if(wyraz.length() > 1){
+            return wyraz + "\n" + wyswietlanieWyrazu(wyraz.substring(0, wyraz.length()-1));
+        }
+
+        return wyraz;
     }
 
     private static int sumaKolejnychLiczb(int liczba){
