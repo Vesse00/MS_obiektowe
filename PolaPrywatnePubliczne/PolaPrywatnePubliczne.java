@@ -5,6 +5,6 @@ public class PolaPrywatnePubliczne {
         
         dos = new DaneOsobowe(); //od tego momentu moge uzywac nazwy: dos
 
-        System.out.println(dos.wzrost);
+        System.out.println(dos.mybmi());
     }
 }
