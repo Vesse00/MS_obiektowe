@@ -16,4 +16,21 @@ public class MojeBmi {
         return waga/((double)wzrost/100*(double)wzrost/100);
     }
     
+    //zmiana wartosc atrybutow obiektu
+    public void setWzrost (int wzrost){
+        this.wzrost = wzrost;
+    }
+
+    public void setWaga(int waga){
+        this.waga = waga;
+    }
+
+    //pobieranie atrybutow obiektu
+    public int getWzrost(){
+        return wzrost;
+    }
+
+    public int getWaga(){
+        return waga;
+    }
 }
