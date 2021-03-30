@@ -4,5 +4,6 @@ class CwiczenieObiektow_1{
 
         System.out.println(md.imie+"\n "+md.nazwisko+"\n "+md.klasa);
         
+        
     }
 }
