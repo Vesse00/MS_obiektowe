@@ -7,5 +7,15 @@ class CwiczenieObiektow_1{
         Logowanie log = new Logowanie();
 
         System.out.println(log.toString());
+
+        Kolo kolo = new Kolo();
+
+        System.out.println(kolo.pole_kola(3.1415, 4));
+        System.out.println(kolo.obwod_kola(3.1415, 4));
+
+        System.out.println("\n");
+
+        System.out.println(kolo.pole_kola(3.1415, 20));
+        System.out.println(kolo.obwod_kola(3.1415, 20));
     }
 }
