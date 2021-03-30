@@ -8,14 +8,25 @@ class CwiczenieObiektow_1{
 
         System.out.println(log.toString());
 
-        Kolo kolo = new Kolo();
+        Kolo k1 = new Kolo(4);
 
-        System.out.println(kolo.pole_kola(3.1415, 4));
-        System.out.println(kolo.obwod_kola(3.1415, 4));
+        System.out.println(k1.pole_kola());
+        System.out.println(k1.obwod_kola());
 
         System.out.println("\n");
 
-        System.out.println(kolo.pole_kola(3.1415, 20));
-        System.out.println(kolo.obwod_kola(3.1415, 20));
+        Kolo k2 = new Kolo(20);
+        System.out.println(k2.pole_kola());
+        System.out.println(k2.obwod_kola());
+
+        Kolo kwadrat = new Kolo(0);
+
+        System.out.println(kwadrat.pole_Kwardatu(5));
+        System.out.println(kwadrat.obwod_Kwardatu(5));
+
+        Kolo prostokat = new Kolo(0);
+
+        System.out.println(prostokat.pole_prostokata(5, 10));
+        System.out.println(prostokat.obwod_prostokata(5, 10));
     }
 }
