@@ -17,7 +17,7 @@ class Szczyptamaciej {
 
         System.out.println("\n"+tab.randomowe);
 
-        
+
 
     }   
 }
