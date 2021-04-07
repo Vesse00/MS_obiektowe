@@ -12,4 +12,5 @@ public class Tablica {
             System.out.println(randomowe[i]);
         }
     }
+    
 }

@@ -14,4 +14,5 @@ public class Dane {
     public String toString(){
         return imie+" "+nazwisko+" urodzony w "+data;
     }
-}
+    
+} 
