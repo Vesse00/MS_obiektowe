@@ -18,5 +18,10 @@ class Main{
 
         Trojkat t1 = new Trojkat(10, 15);
         System.out.println(t1);
+
+        System.out.println();
+
+        Trojkat t2 = new Trojkat(5);
+        System.out.println(t2);
     }
 }
