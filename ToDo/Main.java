@@ -1,14 +1,22 @@
+import java.util.*;
 
 class Main{
     public static void main(String[] args){
-        testSaveFile();
+        ToDoUtils.showNotes();
 
+    }
+
+
+    private static void readFromFile(){
+        FileUtils fu = new FileUtils();
+        fu.readFromFile();
     }
 
     //test zapisu i odczytu do pliku
     private static void testSaveFile(){
         FileUtils fu = new FileUtils();
         fu.saveToFile(new ToDo("Pierwszy zapis","Tutaj jest content"));
+        fu.saveToFile(new ToDo("Drugi zapis","Tutaj jest cos przynajmniej i data"));
 
         fu.readFromFile();
 

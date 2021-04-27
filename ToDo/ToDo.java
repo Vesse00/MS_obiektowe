@@ -1,17 +1,18 @@
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+
 
 class ToDo{
     private String title = "";
     private String content = "";
     private String author = "Anonymous";
     
-    private LocalDateTime add_date = LocalDateTime.now();
+    private LocalDateTime add_date;
 
     //Konstruktor - anonimowy
     public ToDo(String title, String content){
         this.title = title;
         this.content = content;
+        LocalDateTime.now();
     }
 
 
@@ -20,6 +21,15 @@ class ToDo{
         this.title = title;
         this.content = content;
         this.author = author;
+        LocalDateTime.now();
+    }
+
+    //Konstrunkor - trzeci
+    public ToDo(String title, String content, String author, LocalDateTime add_date){
+        this.title = title;
+        this.content = content;
+        this.author = author;
+        this.add_date= add_date;
     }
 
     public String getTitle(){
